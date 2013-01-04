@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Demo</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.aming.slide-1.12.31.0.test.js"></script>
+    <style type="text/css">
+        #sidv {
+            width: 700px;
+            height: 250px;
+        }
+
+        #sidv2 {
+            width: 700px;
+            height: 250px;
+        }
+
+        #sidv3 {
+            width: 700px;
+            height: 250px;
+        }
+
+        #sidv4 {
+            width: 700px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidv"></div>
+    <br />
+    <div id="sidv2"></div>
+    <br />
+    <div id="sidv3"></div>
+    <br />
+    <div id="sidv4"></div>
+    <br />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidv").amingslide({
+                imglist: [
+                    "images/1.jpg",
+                    "images/2.jpg",
+                    "images/3.jpg"],
+                column_count: 1,
+                rom_count: 5,
+                change_time: 4000
+            });
+            $("#sidv2").amingslide({
+                imglist: [
+                    "images/1.jpg",
+                    "images/2.jpg",
+                    "images/3.jpg"],
+                column_count: 1,
+                rom_count: 10,
+                change_time: 4000
+            });
+            $("#sidv3").amingslide({
+                imglist: [
+                    "images/1.jpg",
+                    "images/2.jpg",
+                    "images/3.jpg"],
+                column_count: 1,
+                rom_count: 20,
+                change_time: 4000
+            });
+            $("#sidv4").amingslide({
+                imglist: [
+                    "images/1.jpg",
+                    "images/2.jpg",
+                    "images/3.jpg"],
+                column_count: 1,
+                rom_count: 30,
+                change_time: 4000
+            });
+        });
+    </script>
+</body>
+</html>
